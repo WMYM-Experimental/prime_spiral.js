@@ -25,37 +25,4 @@ const isPrime = (n) => {
   return true;
 };
 
-const spiner = (s) => {
-  switch (s) {
-    case 0:
-      this.x++;
-      break;
-    case 1:
-      this.x++;
-      break;
-    case 2:
-      this.x++;
-      break;
-    case 3:
-      this.x++;
-      break;
-
-    default:
-      break;
-  }
-};
-
-const init = () => {
-  for (let i = 0; i < 100; i++) {
-    let radius = 3;
-    let x = 3 + Math.random();
-    let y = 3 + Math.random();
-    let color = "#222";
-
-    particlesArray.push(
-      new Dot(i, x, y, directionX, directionY, radius, color)
-    );
-  }
-};
-
-export { isPrime, spiner };
+export { isPrime };
