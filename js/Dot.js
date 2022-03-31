@@ -5,10 +5,11 @@ let stepState = 0; // step
 let stepCount = 1; // n
 let numSteps = 0;
 let stepTurner = 0;
-const stepLen = 30;
 
-let oldX = parseInt(canvas.width);
-let oldY = parseInt(canvas.height);
+const stepLen = 15;
+
+let oldX = 0;
+let oldY = 0;
 
 class Dot {
   constructor(n, x, y, radius, color) {
@@ -45,7 +46,7 @@ class Dot {
   };
 
   update = () => {
-    if (this.y < canvas.height && this.x < canvas.width) {
+    if (this.y < 2000 && this.x < 2000) {
       this.setN();
       oldX = this.x;
       oldY = this.y;

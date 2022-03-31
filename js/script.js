@@ -17,7 +17,7 @@ const doty = new Dot(
   0,
   parseInt(canvas.width / 2),
   parseInt(canvas.height / 2),
-  5,
+  3,
   "#222"
 );
 
