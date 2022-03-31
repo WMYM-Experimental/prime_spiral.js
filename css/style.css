@@ -12,5 +12,8 @@
   align-items: center;
 }
 body {
+  width: 100vw;
+  height: 100vh;
   background: radial-gradient(#005f73, #0a9396);
+  overflow: hidden;
 }
